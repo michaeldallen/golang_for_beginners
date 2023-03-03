@@ -1,0 +1,2 @@
+   git config --global user.name michaeldallen
+   git config --global user.email michael@allenhub.net
