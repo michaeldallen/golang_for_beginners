@@ -1,1 +1,4 @@
-   eval $(ssh-agent) ; ssh-add ~/.ssh/cloud9 
+eval $(ssh-agent)
+ssh-add ~/.ssh/cloud9 
+ssh-add -l
+
