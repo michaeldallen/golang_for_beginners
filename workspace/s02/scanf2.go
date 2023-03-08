@@ -4,16 +4,16 @@ import "fmt"
 
 func main() {
 
-    var a string
-    var b int
-    
-    fmt.Print("Enter a string and an integer: ")
+	var a string
+	var b int
 
-    count, err := fmt.Scanf("%s %d", &a, &b)
-    
-    fmt.Println("count: ", count)
-    fmt.Println("error: ", err)
-    fmt.Println("a: ", a)
-    fmt.Println("b: ", b)
+	fmt.Print("Enter a string and an integer: ")
+
+	count, err := fmt.Scanf("%s %d", &a, &b)
+
+	fmt.Println("count: ", count)
+	fmt.Println("error: ", err)
+	fmt.Println("a: ", a)
+	fmt.Println("b: ", b)
 
 }
